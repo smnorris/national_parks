@@ -1,0 +1,14 @@
+{
+   "url": "ftp://ftp.nrcan.gc.ca/ess/sgb_pub/sgb_datasets/bc/YOHO_NATIONAL_PARK_OF_CANADA/YOHO_NATIONAL_PARK_OF_CANADA_SHP.zip",
+   "file": "Administrative_Area.shp",
+   "filetype": "shp",
+   "attribution": "Natural Resources Canada, Earth Sciences Sector, Surveyor General Branch",
+   "metadata": "http://geogratis.gc.ca/api/en/nrcan-rncan/ess-sst/d5de12ea-0c3a-4934-8246-95395b6da3bd.html",
+   "licence": "http://open.canada.ca/en/open-government-licence-canada",
+   "properties": {
+      "ENGLISH_NAME": "NAME_E",
+      "FRENCH_NAME": "NAME_F",
+      "ABSOLUTE_ACCURACY": "ABS_ACCUR"
+   },
+   "crs": "EPSG:2955"
+}

@@ -1,0 +1,14 @@
+{
+   "url": "ftp://ftp.nrcan.gc.ca/ess/sgb_pub/sgb_datasets/bc/MOUNT_REVELSTOKE_NATIONAL_PARK_OF_CANADA/MOUNT_REVELSTOKE_NATIONAL_PARK_OF_CANADA_SHP.zip",
+   "file": "Administrative_Area.shp",
+   "filetype": "shp",
+   "attribution": "Natural Resources Canada, Earth Sciences Sector, Surveyor General Branch",
+   "metadata": "http://geogratis.gc.ca/api/en/nrcan-rncan/ess-sst/5fd3b740-bbca-4e28-b9fb-bbb88a0b2143.html",
+   "licence": "http://open.canada.ca/en/open-government-licence-canada",
+   "properties": {
+      "ENGLISH_NAME": "NAME_E",
+      "FRENCH_NAME": "NAME_F",
+      "ABSOLUTE_ACCURACY": "ABS_ACCUR"
+   },
+   "crs": "EPSG:2955"
+}

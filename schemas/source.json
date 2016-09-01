@@ -1,0 +1,45 @@
+{
+  "properties": {
+    "url": {
+      "type": "string",
+      "description": "Source file URL",
+      "pattern": "^(https|http|ftp|s3)://[\\da-zA-Z\\.-]+\\.[a-zA-Z]{2,16}/[/\\w \\.\\-\\?\\&\\:\\=\\%]+$"
+    },
+    "file": {
+      "type": "string",
+      "description": "Name or path of source file in archive file"
+    },
+    "layerName": {
+      "type": "string",
+      "description": "Name of layer to open, only applicable in multi-layer formats like gdb."
+    },
+    "filetype": {
+      "type": "string",
+      "description": "Source file type",
+      "enum": [
+        "shp",
+        "gdb",
+        "kml",
+        "geojson"
+      ]
+    },
+    "attribution": {
+      "type": "string",
+      "description": "Source file attribution"
+    },
+    "metadata": {
+      "type": "string",
+      "description": "Metadata URL"
+    },
+    "crs": {
+      "type": "string",
+      "description": "Metadata URL"
+    }
+  },
+  "required": [
+    "attribution",
+    "file",
+    "filetype",
+    "url"
+  ]
+}

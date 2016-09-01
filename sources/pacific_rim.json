@@ -1,0 +1,14 @@
+{
+   "url": "ftp://ftp.nrcan.gc.ca/ess/sgb_pub/sgb_datasets/bc/PACIFIC_RIM_NATIONAL_PARK_RESERVE_OF_CANADA/PACIFIC_RIM_NATIONAL_PARK_RESERVE_OF_CANADA_SHP.zip",
+   "file": "Administrative_Area.shp",
+   "filetype": "shp",
+   "attribution": "Natural Resources Canada, Earth Sciences Sector, Surveyor General Branch",
+   "metadata": "http://geogratis.gc.ca/api/en/nrcan-rncan/ess-sst/a3a11a89-fdfb-4355-9a96-bc766a1ebf20.html",
+   "licence": "http://open.canada.ca/en/open-government-licence-canada",
+   "properties": {
+      "ENGLISH_NAME": "NAME_E",
+      "FRENCH_NAME": "NAME_F",
+      "ABSOLUTE_ACCURACY": "ABS_ACCUR"
+   },
+   "crs": "EPSG:2955"
+}
