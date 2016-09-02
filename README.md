@@ -1,10 +1,14 @@
 # BC National Parks
-Combine National Parks in British Columbia into a single layer.
+Combine National Parks in British Columbia into a single layer. Proof of concept for using published open data and Python scripting to create land management definition. 
+
+Inspired by (and code copied/adapted directly from):
+- https://github.com/openaddresses/openaddresses
+- https://github.com/OpenBounds/
 
 ## Requirements
 
 - ArcGIS 
-- processing
+- [processing](https://github.com/smnorris/processing)
 
 ## Installation
 1. Open a windows command prompt and ensure that ArcGIS Python and scripts are inlcuded in the PATH. Use 34 bit Python (so the script is easily runnable from the desktop)  
@@ -12,7 +16,7 @@ Combine National Parks in British Columbia into a single layer.
   set PATH="E:\sw_nt\Python27\ArcGIS10.3";"E:\sw_nt\Python27\ArcGIS10.3\Scripts";%PATH%
   ```
 2. Download and unzip the repository (or `git clone https://github.com/smnorris/national_parks.git` from a command line tool with git installed such as cygwin)
-
+3. Either install the `processing` module using pip or simply copy the module to within the `national_parks` folder
 
 ## Usage
 
