@@ -18,6 +18,8 @@ def process(sources):
 
     # create temp wksp
     temp_gdb = os.path.join(tempfile.gettempdir(), "temp_national_parks.gdb")
+    if arcpy.Exists(temp_gdb):
+        arcpy.Delete_management(temp_gdb)
     arcplus.create_gdb(temp_gdb)
 
     # load all data sources to temp wksp
@@ -37,9 +39,7 @@ def process(sources):
         temp_layers.append(temp)
 
     # project inputs to bc albers
-    arcplus.project_all(temp_gdb,
-                        os.path.join("projections",
-                                     "NAD_1983_BC_Environment_Albers.prj"))
+    arcplus.project_all(temp_gdb, 3005)
     # merge data into single layer
     arcpy.Merge_management(temp_layers,
                            os.path.join(temp_gdb, "national_parks"))
